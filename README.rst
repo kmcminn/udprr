@@ -42,4 +42,11 @@ See the config file for basic options. On the command line::
 
 About
 --------------------
-Why on earth wasnt there a good udp load balancer?
+Needed a lightweight load balancer and suprisingly couldn't find anything in github or elsewhere that 1) worked 2) wasn't old and 3) low quality. This was hacked up quickly and isnt very fancy, but works well and is stable. 
+
+Pull requests welcome.
+
+
+Todo
+---------------------
+Thread out a heartbeat that opens a raw socket parsing icmp port unreachables coming from downstream hosts and testing with icmp echoes and pushing the status across a queue back to the reactor to remove a host from round robin when its dead and to add it when its back.
