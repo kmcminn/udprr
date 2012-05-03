@@ -1,0 +1,17 @@
+[general]
+
+# timeout waiting
+server_timeout = 10
+
+# number of members required to start
+members = 2
+
+# port to listen for udp packets
+listen = 28883
+
+[servers]
+
+# cluster members, python list syntax format: host:port
+#hosts = [ "live-mon-gmw00:28883", "live-mon-gmw01:28883", "live-mon-gmw02:28883", "live-mon-gmw03:28883" ]
+hosts = [ "live-mon-gmw03:28883", "live-mon-gmw04:28883" ]
+

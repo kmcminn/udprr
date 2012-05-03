@@ -1,0 +1,10 @@
+/var/log/udprr.log {
+    missingok
+    notifempty
+    sharedscripts
+    delaycompress
+    postrotate
+        /sbin/service udprr restart >/dev/null 2>/dev/null || true
+    endscript
+}
+

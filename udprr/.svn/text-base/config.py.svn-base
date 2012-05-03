@@ -1,0 +1,30 @@
+"""
+    setup the config
+"""
+
+from ConfigParser import ConfigParser
+
+
+class Configure():
+
+    def __init__(self, config):
+        self.file = config
+        self.cp = ConfigParser()
+        self.parsed = {}
+
+    def read(self):
+        self.cp.read(self.file)
+
+    def parse(self):
+        self.read()
+        parseret = 0
+        for se in self.cp._sections:
+            if "general" in se:
+                parseret += 1
+            if "servers" in se:
+                parseret += 1
+        if parseret >= 2:
+            assert len(self.cp._sections) >= 2
+            return self.cp._sections
+        else:
+            return

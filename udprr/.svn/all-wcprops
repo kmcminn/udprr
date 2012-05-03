@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opsprojects/!svn/ver/5580/mgmt_tools/monitoring/udprr/udprr
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opsprojects/!svn/ver/5580/mgmt_tools/monitoring/udprr/udprr/__init__.py
+END
+protocol.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opsprojects/!svn/ver/5580/mgmt_tools/monitoring/udprr/udprr/protocol.py
+END
+main.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opsprojects/!svn/ver/5580/mgmt_tools/monitoring/udprr/udprr/main.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opsprojects/!svn/ver/5580/mgmt_tools/monitoring/udprr/udprr/config.py
+END

@@ -1,0 +1,41 @@
+8
+
+dir
+5581
+https://playfish.svn.cvsdude.com/opsprojects/mgmt_tools/monitoring/udprr/contrib
+https://playfish.svn.cvsdude.com/opsprojects
+
+
+
+2012-05-03T00:00:07.355745Z
+5580
+pfkmcminn
+
+
+svn:special svn:externals svn:needs-lock
+
+udprr.logrotate
+file
+
+
+
+
+2012-05-02T23:54:28.000000Z
+5f47e14938095e6243a4634782954d2c
+2012-05-03T00:00:07.355745Z
+5580
+pfkmcminn
+
+udprr
+file
+
+
+
+
+2012-05-02T23:54:28.000000Z
+d813001089ea862456e5c908c1152f4d
+2012-05-03T00:00:07.355745Z
+5580
+pfkmcminn
+has-props
+
